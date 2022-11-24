@@ -1,8 +1,22 @@
 -- MariaDB dump 10.19  Distrib 10.4.25-MariaDB, for Linux (x86_64)
 --
+<<<<<<< HEAD
 -- Host: localhost    Database: uas
 -- ------------------------------------------------------
 -- Server version	10.4.25-MariaDB
+=======
+-- Host: localhost
+-- Waktu pembuatan: 23 Nov 2022 pada 18.42
+-- Versi server: 10.4.25-MariaDB
+-- Versi PHP: 8.1.10
+
+
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+>>>>>>> c135754 (konfilk)
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -18,6 +32,8 @@
 --
 -- Current Database: `uas`
 --
+create database uas;
+use uas;
 
 CREATE DATABASE /*!32312 IF NOT EXISTS*/ `uas` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 
@@ -27,9 +43,14 @@ USE `uas`;
 -- Table structure for table `dosen`
 --
 
+<<<<<<< HEAD
 DROP TABLE IF EXISTS `dosen`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
+=======
+
+
+>>>>>>> c135754 (konfilk)
 CREATE TABLE `dosen` (
   `nip` varchar(10) NOT NULL,
   `nama_dosen` varchar(45) NOT NULL,

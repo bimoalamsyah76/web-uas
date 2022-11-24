@@ -8,7 +8,8 @@ if ($_SESSION['jabatan'] != 'admin') {
 }
 
 if (isset($_POST['tambah'])) {
-  $nama = $_POST['nama'];
+  $nama = $_P
+  ['nama'];
   $username = $_POST['username'];
   $password = $_POST['password'];
   
